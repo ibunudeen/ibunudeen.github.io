@@ -1,0 +1,104 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>HOME</title>
+</head>
+<style>
+	body
+		{
+		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		}
+	.main-nav
+		{
+		list-style:none;
+		margin-top:30px;
+		margin-bottom:80px;
+		}
+	.main-nav li
+		{
+		display:inline;
+		}
+	.main-nav li a
+		{
+		text-decoration:none;
+		color:white;
+		padding: 5px 20px;
+		font-family:"Roboto",sans-serif;
+		font-size:18px;
+		}
+	.main-nav li.active a
+		{
+		border:1px solid white;
+		}
+	.main-nav li a:hover
+		{
+		border:1px solid white;
+		}
+	
+	#prof-box
+		{
+		margin:0 auto;
+		color:white;
+		width:400px;
+		height:400px;
+		background:rgba(0,0,0,0.2);
+		padding:20px;
+		text-align:center;
+		border-radius:15%;
+
+		}
+	.profile
+		{
+		border-radius:50%;
+		height:150px;
+		weight:150px;
+		}
+	h1
+		{
+		font-weight:150px;
+		letter-spacing:6;
+		font-size:20px;
+		font-family:garamond;
+		}
+	h5
+		{
+		font-weight:150px;
+		letter-spacing:3px;
+		font-size:15px;
+		font-family:garamond;
+		}
+	.break
+		{
+		width:300px;
+		border-top:1px solid white;
+		margin:0 auto;
+		}
+	p
+		{
+		font-weight:200px;
+		letter-spacing:2;
+		}
+</style>
+<body>
+	<div>
+		<ul class="main-nav">
+			<li class="active"><a href="index.html">HOME</a></li>
+			<li><a href="index2.html">GALLERY</a></li>
+			<li><a href="index3.html">PROJECTS</a></li>
+			<li><a href="index6.html">RESUME</a></li>
+		</ul>
+	</div>
+	
+	<div id="prof-box">
+		<img src="profile.png" class="profile"/>
+		<h1>Mohamed Ibunudeen</h1>
+		<h5>studying BE.Electronics & Communication</h5>
+		<div class="break"></div>
+		<p>Finding paths to make the journey easy</p>
+	</div>
+</body>
+</html>

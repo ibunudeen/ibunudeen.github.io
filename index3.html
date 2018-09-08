@@ -1,0 +1,165 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>PROJECTS 1</title>
+</head>
+<style>
+		body
+		{
+		background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(background1.jpg);
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		}
+	.main-nav
+		{
+		list-style:none;
+		margin-top:30px;
+		margin-bottom:80px;
+		}
+	.main-nav li
+		{
+		display:inline;
+		}
+	.main-nav li a
+		{
+		text-decoration:none;
+		color:white;
+		padding: 5px 20px;
+		font-family:"Roboto",sans-serif;
+		font-size:18px;
+		}
+	.main-nav li.active a
+		{
+		border:1px solid white;
+		}
+	.main-nav li a:hover
+		{
+		border:1px solid white;
+		}
+	.proj-nav
+		{
+		list-style:none;
+		margin-top:30px;
+		margin-bottom:80px;
+		}
+	.proj-nav li
+		{
+		display:inline;
+		}
+	.proj-nav li a
+		{
+		text-decoration:none;
+		color:white;
+		padding: 5px 20px;
+		font-family:"Roboto",sans-serif;
+		font-size:18px;
+		}
+	.proj-nav li.active a
+		{
+		border:1px solid white;
+		}
+	.proj-nav li a:hover
+		{
+		border:1px solid white;
+		}
+	h1
+		{
+		color:white;
+		font-family:sans-serif;
+		}
+	h3
+		{
+		color:white;
+		font-family:roboto;
+		}
+	p
+		{
+		color:white;
+		font-family:arial narrow;
+		}
+	table
+		{
+		width:100%;
+		}
+	td
+		{
+		padding:25px;
+		}
+	img
+		{
+		width:512px;
+		height:288px;
+		}
+	.small
+		{
+		width:384px;
+		height:216px;
+		}
+</style>
+<body>
+	<div>
+		<ul class="main-nav">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="index2.html">GALLERY</a></li>
+			<li class="active"><a href="index3.html">PROJECTS</a></li>
+			<li><a href="index6.html">RESUME</a></li>
+		</ul>
+	</div>
+	<div>
+		<ul class="proj-nav">
+			<li class="active"><a href="index3.html">PROJECT 1</a></li>
+			<li><a href="index4.html">PROJECT 2</a></li>
+			<li><a href="index5.html">PROJECT 3</a></li>
+		</ul>
+	</div>
+	<div>
+		<h1>AUTOMATIC IRRIGATION SYSTEM USING ARDUINO UNO</h1>
+		<h3>Abstract:</h3>
+		<p>Nowadays it is a challenge to improve development of plant in respect of its growth and to reduce costs which leads 
+		to an innovative idea of using an automated irrigation system which will further help in better management of water and
+		human resources. An automated irrigation system have been developed using sensors technology with arduino to efficiently
+		utilize water for irrigation purpose. The system has soil moisture sensor inserted into the soil of the plants and a water 
+		level sensor placed in the field to measure the water level of the soil.</p>
+		<h3>Introduction:</h3>
+		<p>The main aim of this project was to provide water to the plants or gardening automatically using arduino uno. We can 
+		automatically water the plants when we are going on vacation or don't we have to bother my neighbours. somtimes the up dying 
+		anyway. There are timer based devices available in india which waters the soil on the set interval. they do not sense the
+		soil moisture and  the ambient temperature to know if the soil actually needs watering or not. Assimilation is that the artificial 
+		application of water to the land or soil. It is used to assist in the growing of agricultural crops maintenance of landscapes
+		and re-vegetation of disturbed soils in dry areas and during peroids of inadequate rainfall.</p>
+		<h3>Working:</h3>
+		<p>An Automatic plant watering system using Arduino microcontroller is programmed such that it gives the interrupt signals
+		to the motor via the motor drive module. Soil sensor is connected to the A0 pin to the Arduino board which senses the moisture 
+		content present in the soil. whenever the soil moisture content change. giving signals to the microcontroller so that the 
+		pump can be activated.  This concept can be used for automateic plant watering system. the circuit comprises and Arduino 
+		board, a soil moisture sensor, a 5v motor pump, a motor drive module L293D to run the waterpump. we can power the Arduino 
+		board using a 5v to 9v wall wart or plug in adaptor or solar panel. We need a separate 5v to 9v battery for the pump motor.</p>
+		<table align="center">
+			<tr>
+				<h3>Block Diagram:</h3>
+			</tr>
+			<tr>
+				<p>They are the moisture sensors module and the motor drive module for motor pump. Thus the Arduino board is programmed using the Arduino IDE 
+					software. The function of the moisture sensor is to sense the temperature content presaent in the soil ,and  also it measure moisture 
+					level in the soil. The motor drive interrputs the signal to water pump supplies water to the plants.</p>
+			</tr>
+			<tr>
+				<td><a href="images/block diagram.jpg" target="_blank"><img src="images/block diagram.jpg"></a></td>
+				<td><a href="images/circuit diagram.jpg" target="_blank"><img src="images/circuit diagram.jpg"></a></td>
+			</tr>
+		</table>
+		<table align="center">
+			<tr>
+				<h3 colspan="4">Projects Photos:</h3>
+			</tr>
+			<tr>
+				<td><a href="images/project1.jpg" target="_blank"><img class="small" src="images/project1.jpg"></a></td>
+				<td><a href="images/project2.jpg" target="_blank"><img class="small" src="images/project2.jpg"></a></td>
+				<td><a href="images/project3.jpg" target="_blank"><img class="small" src="images/project3.jpg"></a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
